@@ -444,7 +444,7 @@ function tdcli_update_callback(data)
 <b>]] .. tostring(contacts)..[[</b>
 <code>🔅Reserve Links: </code>
 <b>]] .. tostring(links)..[[</b>
-<i>🔅PV:@Bot_mebot</i>>
+<i>🔅PV: @Bot_mebot</i>>
 					return send(msg.chat_id_, 0, text)
 				elseif (text:match("^(ارسال به) (.*)$") and msg.reply_to_message_id_ ~= 0) then
 					local matches = text:match("^ارسال به (.*)$")
